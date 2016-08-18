@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link rel="stylesheet" type="text/css" href="jquery-mobile/includes/style1.css">
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+</head>
+<body>
+<div data-role="page" id="page">
+  <div class="header">
+    <div class="logo"></div>
+    <div class="blueline"></div>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <ul data-role="listview" data-inset="true" class="mainmenu">
+      <li><a href="#page2">Hall Arrangements</a></li>
+      <li><a href="#page3">Examination Schedule</a></li>
+      <li><a href="#page4">Monthly Time Table</a></li>
+      <li><a href="#page5">Contacts</a></li>
+      <li><a href="#page10">News Updates</a></li>
+      <li><a href="#page6">About Us</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" >
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page2">
+  <div data-role="header">
+    <h1>Hall Arrangements</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Year :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">2014</option>
+        <option value="option2">2015</option>
+        <option value="option3">2016</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Month :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">January</option>
+        <option value="option2">February</option>
+        <option value="option3">March</option>
+        <option value="option1">April</option>
+        <option value="option1">May</option>
+        <option value="option1">June</option>
+        <option value="option1">July</option>
+        <option value="option1">August</option>
+        <option value="option1">September</option>
+        <option value="option1">October</option>
+        <option value="option1">November</option>
+        <option value="option1">December</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Date :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">1</option>
+        <option value="option2">2</option>
+        <option value="option3">3</option>
+        <option value="option1">4</option>
+        <option value="option1">5</option>
+        <option value="option1">6</option>
+        <option value="option1">7</option>
+        <option value="option1">8</option>
+        <option value="option1">9</option>
+        <option value="option1">10</option>
+        <option value="option1">11</option>
+        <option value="option1">12</option>
+        <option value="option1">13</option>
+        <option value="option1">14</option>
+        <option value="option1">15</option>
+        <option value="option1">16</option>
+        <option value="option1">17</option>
+        <option value="option1">18</option>
+        <option value="option1">19</option>
+        <option value="option1">20</option>
+        <option value="option1">21</option>
+        <option value="option1">22</option>
+        <option value="option1">23</option>
+        <option value="option1">24</option>
+        <option value="option1">25</option>
+        <option value="option1">26</option>
+        <option value="option1">27</option>
+        <option value="option1">28</option>
+        <option value="option1">29</option>
+        <option value="option1">30</option>
+        <option value="option1">31</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Batch :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    </div>
+    <a href="#page7" data-role="button">Get Hall Arrangements</a> </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="back">Back</a> </h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page3">
+  <div data-role="header">
+    <h1>Examination Schedule</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Year :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">2014</option>
+        <option value="option2">2015</option>
+        <option value="option3">2016</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Month :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">January</option>
+        <option value="option2">February</option>
+        <option value="option3">March</option>
+        <option value="option1">April</option>
+        <option value="option1">May</option>
+        <option value="option1">June</option>
+        <option value="option1">July</option>
+        <option value="option1">August</option>
+        <option value="option1">September</option>
+        <option value="option1">October</option>
+        <option value="option1">November</option>
+        <option value="option1">December</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Subject :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">1</option>
+        <option value="option2">2</option>
+        <option value="option3">3</option>
+        <option value="option1">4</option>
+        <option value="option1">5</option>
+        <option value="option1">6</option>
+        <option value="option1">7</option>
+        <option value="option1">8</option>
+        <option value="option1">9</option>
+        <option value="option1">10</option>
+        <option value="option1">11</option>
+        <option value="option1">12</option>
+        <option value="option1">13</option>
+        <option value="option1">14</option>
+        <option value="option1">15</option>
+        <option value="option1">16</option>
+        <option value="option1">17</option>
+        <option value="option1">18</option>
+        <option value="option1">19</option>
+        <option value="option1">20</option>
+        <option value="option1">21</option>
+        <option value="option1">22</option>
+        <option value="option1">23</option>
+        <option value="option1">24</option>
+        <option value="option1">25</option>
+        <option value="option1">26</option>
+        <option value="option1">27</option>
+        <option value="option1">28</option>
+        <option value="option1">29</option>
+        <option value="option1">30</option>
+        <option value="option1">31</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Batch :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    </div>
+    <a href="#page8" data-role="button">Get Exam Schedule</a> </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page4">
+  <div data-role="header">
+    <h1>Monthly Time Table</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Year :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">2014</option>
+        <option value="option2">2015</option>
+        <option value="option3">2016</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Month :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">January</option>
+        <option value="option2">February</option>
+        <option value="option3">March</option>
+        <option value="option1">April</option>
+        <option value="option1">May</option>
+        <option value="option1">June</option>
+        <option value="option1">July</option>
+        <option value="option1">August</option>
+        <option value="option1">September</option>
+        <option value="option1">October</option>
+        <option value="option1">November</option>
+        <option value="option1">December</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Batch :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    </div>
+    <a href="#page12" data-role="button" data-icon="search">Find</a> </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1>Contacts</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <div id="Accordion1" class="Accordion" tabindex="0">
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab"><font color="#FFFFFF">National Institute of Business Management, Head Office</font></div>
+        <div class="AccordionPanelContent">
+          <li><font color="#FFFFFF">Address : 120/5, Wijerama Mawatha, Colombo 07. Sri Lanka</font></li>
+          <li><font color="#FFFFFF">Hot Line : 5321000 - 30</font></li>
+          <li><font color="#FFFFFF">General Telephone: 2693404, 2692272, 2685805 </font></li>
+          <li><font color="#FFFFFF">MIS Division : 2667769 </font></li>
+          <li><font color="#FFFFFF">PMD Division: 2685806 </font></li>
+          <li><font color="#FFFFFF">Fax : 2667769, 2685808, 2693403 </font></li>
+          <li><font color="#FFFFFF">Email : infomis@nibm.lk / nibmpro@sltnet.lk </font></li>
+          <a href="tel:+94112693404" data-role="button" data-icon="custom">Call Us</a> </div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab"><font color="#FFFFFF">National Institute of Business Management, Kandy Branch</font></div>
+        <div class="AccordionPanelContent">
+          <li><font color="#FFFFFF">Address : No. 02, Asgiriya Road, Kandy. </font></li>
+          <li><font color="#FFFFFF">Telephone : 081-5621604 </font></li>
+          <a href="tel:+94815621604" data-role="button" data-icon="custom">Call Us</a> <a href="#page9" data-role="button" data-icon="search">Find us on Google Maps</a> </div>
+      </div>
+    </div>
+  </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page6">
+  <div data-role="header">
+    <h1>About Us</h1>
+  </div>
+  <div data-role="content" class="bodycopy"> </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page7">
+  <div data-role="header">
+    <h1>Hall Arrangements</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Batch :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Date :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Hall :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Lecture :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Lecturer :</font></li>
+    <input name="" type="text" readonly>
+  </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="home">Home</a> <a href="#page2" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page8">
+  <div data-role="header">
+    <h1>Examination Schedule</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Batch :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Subject :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Date :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Time :</font></li>
+    <input name="" type="text" readonly>
+    <li><font color="#FFFFFF">Exam Center/Hall :</font></li>
+    <input name="" type="text" readonly>
+  </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="home">Home</a> <a href="#page3" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page9">
+  <div data-role="header">
+    <h1>Google Maps</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <center>
+      <a href="https://www.google.com/maps/place/National+Institute+of+Business+Management/@7.296218,80.6373425,16z/data=!4m2!3m1!1s0x3ae367d4df73b075:0xdf626097a147a111"><img src="jquery-mobile/images/Map.jpg" width="407" height="510" longdesc="https://www.google.com/maps/place/National+Institute+of+Business+Management/@7.296218,80.6373425,16z/data=!4m2!3m1!1s0x3ae367d4df73b075:0xdf626097a147a111" ></a>
+    </center>
+  </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="home">Home</a> <a href="#page5" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page10">
+  <div data-role="header">
+    <h1>News Updates</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Year :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">2014</option>
+        <option value="option2">2015</option>
+        <option value="option3">2016</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Month :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">January</option>
+        <option value="option2">February</option>
+        <option value="option3">March</option>
+        <option value="option1">April</option>
+        <option value="option1">May</option>
+        <option value="option1">June</option>
+        <option value="option1">July</option>
+        <option value="option1">August</option>
+        <option value="option1">September</option>
+        <option value="option1">October</option>
+        <option value="option1">November</option>
+        <option value="option1">December</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Date :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">1</option>
+        <option value="option2">2</option>
+        <option value="option3">3</option>
+        <option value="option1">4</option>
+        <option value="option1">5</option>
+        <option value="option1">6</option>
+        <option value="option1">7</option>
+        <option value="option1">8</option>
+        <option value="option1">9</option>
+        <option value="option1">10</option>
+        <option value="option1">11</option>
+        <option value="option1">12</option>
+        <option value="option1">13</option>
+        <option value="option1">14</option>
+        <option value="option1">15</option>
+        <option value="option1">16</option>
+        <option value="option1">17</option>
+        <option value="option1">18</option>
+        <option value="option1">19</option>
+        <option value="option1">20</option>
+        <option value="option1">21</option>
+        <option value="option1">22</option>
+        <option value="option1">23</option>
+        <option value="option1">24</option>
+        <option value="option1">25</option>
+        <option value="option1">26</option>
+        <option value="option1">27</option>
+        <option value="option1">28</option>
+        <option value="option1">29</option>
+        <option value="option1">30</option>
+        <option value="option1">31</option>
+      </select>
+    </div>
+    <a href="#" data-role="button">Get News</a>
+    <div data-role="fieldcontain">
+      <textarea cols="40" rows="40" name="textarea" id="textarea" readonly></textarea>
+    </div>
+    <a href="#page11" data-role="button">Upload your news</a> </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page11">
+  <div data-role="header">
+    <h1>News Uploads</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Year :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">2014</option>
+        <option value="option2">2015</option>
+        <option value="option3">2016</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Month :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">January</option>
+        <option value="option2">February</option>
+        <option value="option3">March</option>
+        <option value="option1">April</option>
+        <option value="option1">May</option>
+        <option value="option1">June</option>
+        <option value="option1">July</option>
+        <option value="option1">August</option>
+        <option value="option1">September</option>
+        <option value="option1">October</option>
+        <option value="option1">November</option>
+        <option value="option1">December</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Date :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">1</option>
+        <option value="option2">2</option>
+        <option value="option3">3</option>
+        <option value="option1">4</option>
+        <option value="option1">5</option>
+        <option value="option1">6</option>
+        <option value="option1">7</option>
+        <option value="option1">8</option>
+        <option value="option1">9</option>
+        <option value="option1">10</option>
+        <option value="option1">11</option>
+        <option value="option1">12</option>
+        <option value="option1">13</option>
+        <option value="option1">14</option>
+        <option value="option1">15</option>
+        <option value="option1">16</option>
+        <option value="option1">17</option>
+        <option value="option1">18</option>
+        <option value="option1">19</option>
+        <option value="option1">20</option>
+        <option value="option1">21</option>
+        <option value="option1">22</option>
+        <option value="option1">23</option>
+        <option value="option1">24</option>
+        <option value="option1">25</option>
+        <option value="option1">26</option>
+        <option value="option1">27</option>
+        <option value="option1">28</option>
+        <option value="option1">29</option>
+        <option value="option1">30</option>
+        <option value="option1">31</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Batch :</font></li>
+    <div data-role="fieldcontain">
+      <select name="selectmenu" id="selectmenu">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+    </div>
+    <li><font color="#FFFFFF">Your News :</font></li>
+    <div data-role="fieldcontain">
+      <textarea cols="40" rows="8" name="textarea2" id="textarea2"></textarea>
+      <a href="#" data-role="button">Upload</a> </div>
+  </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="home">Home</a><a href="#page10" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<div data-role="page" id="page12">
+  <div data-role="header">
+    <h1>Download</h1>
+  </div>
+  <div data-role="content" class="bodycopy">
+    <li><font color="#FFFFFF">Download File :</font></li>
+    <div data-role="fieldcontain">
+      <div data-role="fieldcontain">
+        <input type="text" name="textinput" id="textinput" readonly/>
+      </div>
+    </div>
+    <a href="#" data-role="button">Download Here</a> </div>
+  <div data-role="footer" >
+    <h5><a href="#page" data-role="button" data-icon="home">Home</a><a href="#page4" data-role="button" data-icon="back">Back</a></h5>
+    <h4>TUDM Software Solutions</h4>
+  </div>
+</div>
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+</script>
+</body>
+</html>
